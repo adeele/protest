@@ -1,5 +1,5 @@
 Vue.component('home', {
-  template: '<h1>HOME</h1>'
+  template: '<img src="protest.jpg">'
 })
 
 Vue.component('list', {

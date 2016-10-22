@@ -3,3 +3,8 @@ body {
   min-height: 100%;
   margin: 0;
 }
+
+img {
+  height: 90vh;
+  min-width: 100%;
+}
