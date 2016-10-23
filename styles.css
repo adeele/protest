@@ -4,7 +4,48 @@ body {
   margin: 0;
 }
 
+.home-wrapper {
+  position: relative;
+  width: 100%;
+  height: 85vh;
+}
+
 img {
-  height: 90vh;
-  min-width: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  filter: grayscale(50%);
+}
+
+.header-wrapper {
+  background: rgba(64, 81, 181, 0.6);
+  position: absolute;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  left: 25%;
+  top: 25%;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.content-wrapper {
+  padding: 0 10%;
+}
+
+h2 {
+  background: rgb(64, 81, 181);
+  margin: 0;
+  padding: 5vh 10%;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
 }
